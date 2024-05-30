@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+
+}
+.container{
+    
+    padding:50px;
+   
+ 
+}
+
+.row {
+    margin-bottom: 7px; /* Add bottom margin to create gap between rows */
+}
+
+.box{
+    height:100px;
+    width:100px;
+    outline:none;
+}
+
+body{
+    background-color:#849483;
+}
+
+.box{
+    background-color:#4E937A;
+    color:#e44459;
+    border-radius:6px;
+    font-size:35px;
+    font-weight:100;
+}
+
+.box button {
+    outline: none; /* Remove the default button outline */
+    pointer-events: none; /* Disable pointer events on the buttons */
+}
+#reset{
+    margin-top:0px;
+    border-radius:10px;
+    background-color:#948392;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:40px;
+    width:120px;
+    padding:5px;
+    font-size:large;
+}
+
+.hide{
+    display: grid;
+    gap:20px;
+    display:none;
+}
+
+.hide p{
+    font-size:30px;
+}
+
+.newgame{
+    margin-top:0px;
+    border-radius:10px;
+    background-color:#948392;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:40px;
+    width:120px;
+    padding:5px;
+    font-size:large;
+    margin-bottom:30px;
+
+}
+
+h1{
+    font-size:60px;
+}
+
+.winner{
+    color:#e44459;
+    font-size:35px;
+    font-weight:100;
+}
+
+.box{
+    display:absolute;
+    z-index:0px;
+}
